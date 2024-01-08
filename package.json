@@ -22,15 +22,27 @@
     "@electron-forge/maker-zip": "^7.2.0",
     "@electron-forge/plugin-auto-unpack-natives": "^7.2.0",
     "@electron-forge/plugin-vite": "^7.2.0",
+    "@types/react": "^18.2.46",
+    "@types/react-dom": "^18.2.18",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "electron": "28.1.1",
+    "electron-rebuild": "^3.2.9",
     "eslint": "^8.56.0",
     "eslint-plugin-import": "^2.29.1",
     "ts-node": "^10.9.2",
     "typescript": "~4.5.4"
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "@electron-toolkit/utils": "^3.0.0",
+    "@types/ffi-napi": "^4.0.10",
+    "electron-squirrel-startup": "^1.0.0",
+    "electron-vite": "^1.0.29",
+    "ffi-napi": "^4.0.3",
+    "nan": "^2.18.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ref-napi": "^3.0.3",
+    "sqlite3": "5.1.7"
   }
 }
